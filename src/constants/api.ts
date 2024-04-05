@@ -1,0 +1,90 @@
+import {ENVIRONMENT} from './common';
+
+export const API_HOST_CLOUD = 'https://gateway.pinata.cloud/ipfs/';
+
+enum URL {
+  STAGING = 'https://api.stage.satschel.com/v1',
+  PP = 'https://api.pp.satschel.com/v1',
+  PROD = 'https://api.satschel.com/v1',
+}
+
+enum ONBOARDING {
+  STAGING = 'https://secure.stage.satschel.com/',
+  PP = 'https://secure.pp.satschel.com/',
+  PROD = 'https://secure.simplici.io/',
+}
+
+export const API_HOST = ENVIRONMENT.isProduction ? URL.PROD : URL.PP;
+export const API_ONBOARDING_HOST = ENVIRONMENT.isProduction
+  ? ONBOARDING.PROD
+  : ONBOARDING.PP;
+
+export const APIS = {
+  Wallets: '/wallets',
+  Info: '/info',
+  Users: '/users',
+  TokensUserId: '/tokens?userId=',
+  Events: '/events',
+  Countries: '/countries',
+  StatesCountry: '/states?country=',
+  VerifyPhones: '/verify-phones',
+  Trust: 'trust',
+  Transactions: '/transactions',
+  PhoneCodes: '/phone-codes',
+  Status: '/status',
+  Connections: '/connections',
+  Requests: '/requests',
+  WatchLists: '/watchlists',
+  Explorers: '/exchange-explorers',
+  StockSummaries: '/stock-summaries',
+  CommoditySummaries: '/commodity-summaries',
+  CryptoSummaries: '/crypto-summaries',
+  ForexSummaries: '/forex-summaries',
+  MarketIndexSummaries: '/market-index-summaries',
+  AddToWatchlist: '/watchlists/',
+  NEWS: '/news',
+  Portfolio: '/exchange-portfolio',
+  PrivateSummaries: '/privates-summaries',
+  Offers: '/offers-exchange',
+  OrderBookBuy: '/exchange-orderbook?assetId=',
+  OrderBookParam1: '&buyAssetType=native',
+  OrderbookSell: '/exchange-orderbook?sellAssetType=native',
+  OrderbookParam2: '&buyAssetAddress=',
+  Search: '/search-assets?asset=',
+  DeviceTokens: '/device-tokens',
+  Tokens: '/exchange-assets',
+  OrderHistory: '/exchange-order-history/',
+  CancelOrders: '/exchange-order-history/',
+  EditOrders: '/exchange-order-history/',
+  ExchangeOrders: '/order-details',
+  MultiLanguage: '/multilanguage',
+  SessionStatus: '/check-session-status',
+  WalletKey: '/wallet-key',
+  QrCodeLogin: '/qr-code-login',
+  LinkedDevices: '/linked-devices',
+  QrCodes: '/qr-codes',
+  AssetOverView: '/fund-overview',
+  LiquidityLinkToken: '/liquidity-link-tokens',
+  GetBankAccounts: '/bank-accounts',
+  TokenExchange: '/liquidity-token-exchange',
+  EmailVerification: '/resend-verification-email',
+  profilePicture: '/profile-picture',
+  coOwners: '/co-owners',
+  coOwnersExchange: '/co-owners-exchange',
+  switchAccount: '/switch-account/',
+  coOwnersDocument: '/co-owners-document/',
+  walletDeposite: '/wallet-deposit/',
+  paymentInitiation: '/payment-initiation',
+  walletTransaction: '/fortress-transactions?limit=100',
+  fortressAccountInfo: '/fortress-account-info',
+  verifyPhone: '/verify-phone',
+  usersDeviceLogin: '/users-device-login',
+  coOwnersDenyRequest: '/co-owners-deny-request/',
+  userLogin: '/user-login',
+  auction: '/auction',
+  latestBidPriceByAuctionId: `/latest-bid-price?auctionId=`,
+  auctionWatchlist: '/auction-watchlist',
+  auctionBid: '/auction-bid',
+  auctionMaxBid: '/auction-max-bid/',
+  auctionDataroomLog: '/auction-dataroom-log/',
+};

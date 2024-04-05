@@ -1,0 +1,1 @@
+declare module 'smaxtec-react-native-queue'

@@ -1,0 +1,223 @@
+import {StyleSheet} from 'react-native';
+import {COLORS} from '../../../assets';
+
+export const OrderedAssetStyles = StyleSheet.create({
+  mainContainer: {
+    minHeight: 104,
+    paddingVertical: 16,
+    paddingHorizontal: 12,
+    flex: 1,
+    borderBottomColor: COLORS['color-border-dark-100'],
+    borderBottomWidth: 1,
+  },
+  detailContainer: {
+    flex: 0.7,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  imageContainer: {
+    backgroundColor: COLORS['color-bg-dark-90'],
+    height: 40,
+    width: 40,
+    borderRadius: 24,
+    marginRight: 6,
+  },
+  image: {
+    height: 40,
+    width: 40,
+    borderRadius: 24,
+  },
+  details: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-end',
+  },
+  symbol: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  symbolTxt: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: COLORS['white'],
+  },
+  nameTxt: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: COLORS['color-text-dark-70'],
+  },
+  priceTxt: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: COLORS['white'],
+  },
+  amountDetails: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 4,
+  },
+  quantityTxt: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: COLORS['color-text-dark-80'],
+  },
+  listContainer: {
+    flex: 0.98,
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  dotMemo: {
+    alignSelf: 'center',
+    marginBottom: 4,
+  },
+  memo: {
+    borderColor: COLORS['primary-light'],
+    borderWidth: 0.5,
+    paddingHorizontal: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: COLORS['color-transparent-dark-primary'],
+    borderRadius: 4,
+  },
+  amount: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: COLORS['color-text-dark-60'],
+  },
+  memoTxt: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: COLORS['primary-dark'],
+  },
+  amountTxt: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: COLORS['color-text-dark-80'],
+  },
+  dateDetailContainer: {
+    flex: 0.3,
+    alignItems: 'flex-end',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  dateContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  timeTxt: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: COLORS['color-text-dark-70'],
+    marginLeft: 4,
+  },
+  categoryTxt: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: COLORS['color-text-dark-70'],
+  },
+  dot: {
+    width: 4,
+    height: 4,
+    backgroundColor: COLORS['font-color-light'],
+    borderRadius: 4,
+    marginLeft: 8,
+    marginRight: 8,
+  },
+  assetType: {
+    backgroundColor: COLORS['color-bg-dark-90'],
+    // height: 24,
+    borderRadius: 4,
+    marginTop: 4,
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    marginRight: 8,
+  },
+  txnType: {
+    backgroundColor: COLORS['color-bg-dark-90'],
+    // height: 24,
+    borderRadius: 4,
+    marginTop: 4,
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+  },
+  cancelBtn: {
+    flex: 1,
+    minWidth: 80,
+    width: '20%',
+    backgroundColor: COLORS['color-bg-dark-80'],
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  cancelTxt: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: COLORS['color-text-dark-70'],
+  },
+  modifyBtn: {
+    flex: 1,
+    minWidth: 80,
+    width: '20%',
+    backgroundColor: COLORS['primary-light'],
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  modifyTxt: {
+    fontSize: 12,
+    fontWeight: '500',
+    color: COLORS['white'],
+  },
+
+  symbolView: {
+    height: 40,
+    width: 40,
+    borderRadius: 20,
+  },
+  symbolText: {
+    fontSize: 18,
+    textTransform: 'uppercase',
+    textAlign: 'center',
+    justifyContent: 'center',
+    position: 'absolute',
+    right: '35%',
+    marginTop: '25%',
+  },
+  symbolTextAndroid: {
+    fontSize: 18,
+    textTransform: 'uppercase',
+    textAlign: 'center',
+    justifyContent: 'center',
+    position: 'absolute',
+    right: '32%',
+    marginTop: '18%',
+  },
+  footerBtnSell: {
+    color: COLORS.red,
+    fontSize: 12,
+    fontWeight: '500',
+  },
+  footerBtnBuy: {
+    color: COLORS.green,
+    fontSize: 12,
+    fontWeight: '500',
+  },
+  cancelled: {
+    color: COLORS.red,
+    fontSize: 12,
+    fontWeight: '500',
+  },
+  qty: {
+    color: COLORS['color-text-dark-60'],
+    fontSize: 12,
+    fontWeight: '500',
+  },
+  priceView: {
+    flex: 0.22,
+    alignItems: 'flex-end',
+  },
+});

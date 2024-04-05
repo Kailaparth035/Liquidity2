@@ -1,0 +1,9 @@
+export const REJECTED = 'REJECTED';
+export const APPROVED = 'APPROVED';
+export const TOAST_APPROVED = 'Request approved';
+export const TOAST_REJECTED = 'Request rejected';
+export const APPROVE_ISSUE = 'Could not approve request due to some issue';
+export const PENDING = 'PENDING';
+export const ALREADY_APPROVED = 'Request is approved.';
+export const ALREADY_REJECTED = 'Request is rejected.';
+export const NO_REQUESTS = 'No pending requests.';

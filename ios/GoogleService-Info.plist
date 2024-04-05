@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>30392363559-mk9kd326cq8nu0megadifvg4ah0vjkop.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.30392363559-mk9kd326cq8nu0megadifvg4ah0vjkop</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABgS7oOgZjkEydG6yideLa7gxxl2W9UG0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>30392363559</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.liquidity.mobile.ios.pp</string>
+	<key>PROJECT_ID</key>
+	<string>liquidity-pp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>liquidity-pp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:30392363559:ios:c5bbc6162fe96c8c5abc02</string>
+</dict>
+</plist>
